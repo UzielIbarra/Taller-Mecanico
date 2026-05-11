@@ -1,3 +1,19 @@
+Sistema de Gestión de Reparaciones y Contactos
+Este proyecto consiste en una aplicación desarrollada en Python diseñada para gestionar registros de usuarios, piezas, reparaciones y contactos a través de una arquitectura modular que separa la lógica de la base de datos de la lógica de negocio.
+
+Estructura del Proyecto
+La organización de los archivos sigue una estructura funcional:
+
+app.py / main.py: Puntos de entrada principales de la aplicación.
+
+Módulos de Base de Datos (db...): Manejan la persistencia y conexión:
+
+conexion.py: Configuración de la conexión a la base de datos.
+
+db_reparacion.py, dbPieza.py, dbUsuario.py, dbcontacto.py: Consultas y operaciones CRUD específicas.
+
+Modelos de Negocio:
+
 usuario.py, pieza.py, reparacion.py, contacto.py: Definen las clases y la lógica de los objetos del sistema.
 
 Requisitos Previos
