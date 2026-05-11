@@ -45,14 +45,3 @@ Control de Inventario (Piezas): Seguimiento de piezas disponibles para reparacio
 Registro de Reparaciones: Historial detallado de los trabajos realizados y su estado.
 
 Módulo de Contactos: Administración de información de contacto relacionada con el servicio.
-
-Contribuciones
-Para realizar cambios:
-
-Haz un Fork del proyecto.
-
-Crea una nueva rama (git checkout -b feature/NuevaMejora).
-
-Realiza un Commit de tus cambios.
-
-Haz un Push a la rama y abre un Pull Request.
